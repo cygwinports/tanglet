@@ -1,0 +1,48 @@
+tanglet
+------------------------------------------
+A solitaire Boggle game for Qt4.
+
+Runtime requirements:
+  cygwin-1.7.0-64
+  libgcc1-4.3.4-1
+  libQtCore4-4.5.3-1
+  libQtGui4-4.5.3-1
+  libstdc++6-4.3.4-1
+
+Build requirements:
+(besides corresponding -devel packages)
+  binutils-2.19.51-1
+  cygport-0.9.10-1
+  gcc4-core-4.3.4-1
+  gcc4-g++-4.3.4-1
+  make-3.81-2
+
+Canonical website:
+  http://gottcode.org/tanglet/
+
+Canonical download:
+  http://gottcode.org/tanglet/
+
+-------------------------------------------
+
+Build instructions:
+  unpack tanglet-1.0.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./tanglet-1.0.0-X.cygport all
+
+This will create:
+  /usr/src/tanglet-1.0.0-X-src.tar.bz2
+  /usr/src/tanglet-1.0.0-X.tar.bz2
+
+-------------------------------------------
+
+Port Notes:
+
+----- version 1.0.0-1 -----
+Initial release for Cygwin 1.7.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/

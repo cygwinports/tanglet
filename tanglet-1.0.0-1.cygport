@@ -1,0 +1,7 @@
+inherit qt4-qmake
+
+DESCRIPTION="Qt4 boggle game"
+HOMEPAGE="http://gottcode.org/${PN}/"
+SRC_URI="http://gottcode.org/${PN}/${P}-src.tar.bz2"
+
+CYGQMAKE4_ARGS="PREFIX=/usr"
