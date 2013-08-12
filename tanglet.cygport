@@ -1,7 +1,7 @@
 inherit qt4-qmake
 
 NAME="tanglet"
-VERSION=1.2.1
+VERSION=1.2.2
 RELEASE=1
 CATEGORY="Games"
 SUMMARY="Qt single player word finding game"
@@ -9,7 +9,7 @@ DESCRIPTION="Tanglet is a single player word finding game. The object of the
 game is to list as many words as you can before the time runs out. There are
 several timer modes that determine how much time you start with, and if you get
 extra time when you find a word."
-HOMEPAGE="http://gottcode.org/${PN}/"
-SRC_URI="http://gottcode.org/${PN}/${P}-src.tar.bz2"
+HOMEPAGE="http://gottcode.org/tanglet/"
+SRC_URI="http://gottcode.org/tanglet/tanglet-${VERSION}-src.tar.bz2"
 
 CYGQMAKE4_ARGS="PREFIX=/usr LIBS=-lz"
