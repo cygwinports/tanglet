@@ -1,7 +1,7 @@
-inherit qt4-qmake
+inherit qt5-qmake
 
 NAME="tanglet"
-VERSION=1.2.2
+VERSION=1.3.1
 RELEASE=1
 CATEGORY="Games"
 SUMMARY="Qt single player word finding game"
@@ -11,5 +11,6 @@ several timer modes that determine how much time you start with, and if you get
 extra time when you find a word."
 HOMEPAGE="http://gottcode.org/tanglet/"
 SRC_URI="http://gottcode.org/tanglet/tanglet-${VERSION}-src.tar.bz2"
+PATCH_URI="1.3.1-cygwin-cmath.patch"
 
-CYGQMAKE4_ARGS="PREFIX=/usr LIBS=-lz"
+CYGQMAKE5_ARGS="PREFIX=/usr LIBS=-lz"
