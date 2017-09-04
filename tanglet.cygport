@@ -1,7 +1,7 @@
 inherit qt5-qmake
 
 NAME="tanglet"
-VERSION=1.4.0
+VERSION=1.5.0
 RELEASE=1
 CATEGORY="Games"
 SUMMARY="Qt single player word finding game"
@@ -13,3 +13,5 @@ HOMEPAGE="http://gottcode.org/tanglet/"
 SRC_URI="http://gottcode.org/tanglet/tanglet-${VERSION}-src.tar.bz2"
 
 CYGQMAKE5_ARGS="PREFIX=/usr LIBS=-lz"
+
+DIFF_EXCLUDES="data"
